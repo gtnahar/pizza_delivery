@@ -14,7 +14,7 @@ session_start();
             }
             else
             {
-                header("location:index.php?Invalid= Please Enter Correct User Name and Password ");
+                header("location:login.php?Invalid= Please Enter Correct User Name and Password ");
             }
        
     }
