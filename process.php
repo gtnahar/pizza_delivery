@@ -4,7 +4,7 @@ session_start();
     if(isset($_POST['login']))
     {
        
-            $query="select * from user where username='".$_POST['Username']."' and passsword='".$_POST['Password']."'";
+            $query="select * from user where username='".$_POST['Username']."' and password='".$_POST['Password']."'";
             $result=mysqli_query($con,$query);
 
             if(mysqli_fetch_assoc($result))
